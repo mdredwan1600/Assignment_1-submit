@@ -243,3 +243,86 @@ nav ul li a{
 .footer-right a:hover{
     color: white;
 }
+
+
+
+/* AI section */
+.cta {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.cta-container {
+  max-width: 900px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  padding: 80px 40px;
+  text-align: center;
+  margin: auto; /* কন্টেন্ট স্ক্রিনের মাঝে রাখার জন্য এটি যোগ করুন */
+}
+.cta-content h2 {
+  font-size: 38px;
+  color: #111111;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.cta-content p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #2d63ff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 16px 36px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #2d63ff;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #1a4ae0;
+  border-color: #1a4ae0;
+  box-shadow: 0 8px 20px rgba(45, 99, 255, 0.3);
+  transform: translateY(-3px);
+}
+
+.cta-btn2 {
+  display: inline-block;
+  background-color: transparent;
+  color: #2d63ff;
+  text-decoration: none;
+  padding: 16px 36px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #2d63ff;
+  transition: all 0.3s ease;
+}
+
+.cta-btn2:hover {
+  background-color: #2d63ff;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(45, 99, 255, 0.3);
+  transform: translateY(-3px);
+}
