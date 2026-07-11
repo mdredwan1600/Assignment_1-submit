@@ -213,3 +213,33 @@ nav ul li a{
     color:#111;
     border:2px solid #111;
 }
+
+
+/* Footer */
+
+.footer{
+    background:#0f1d2e;
+    padding:35px 0;
+}
+.footer-parent{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-left p{
+    color:#aeb7c2;
+    font-size: 16px;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+}
+.footer-right a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    /* transition:.3s; */
+}
+.footer-right a:hover{
+    color: white;
+}
