@@ -263,7 +263,7 @@ nav ul li a{
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   padding: 80px 40px;
   text-align: center;
-  margin: auto; /* কন্টেন্ট স্ক্রিনের মাঝে রাখার জন্য এটি যোগ করুন */
+  margin: auto;
 }
 .cta-content h2 {
   font-size: 38px;
