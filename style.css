@@ -43,6 +43,79 @@ nav ul li a{
     background-image: url(images/banner.jpg);
     background-size:cover;
     background-position:center;
-    background: linear-gradient(Left → Right);
 }
 
+/* codeconnect */
+.codeconnect{
+    width:100%;
+    height:100%;
+    gap: 30px;
+    background:rgba(0,0,0,.55);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.codeconnect h1{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.codeconnect p{
+    color: white;
+    text-align: center;
+    width: 700px;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.codeconnect-p{
+    gap: 300px;
+}
+
+/* meetup section */
+.speaker{
+    padding:100px 0;
+}
+.speaker h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:60px;
+}
+.speaker-parent{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.speaker-card{
+    width:48%;
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+    transition:.3s;
+    background:#fff;
+}
+.speaker-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    display:block;
+}
+.speaker-content{
+    padding:20px;
+}
+.speaker-content span{
+    color:#3056ff;
+    font-size:12px;
+    font-weight:bold;
+}
+.speaker-content h3{
+    margin:10px 0;
+    font-size:28px;
+}
+.speaker-content p{
+    color:#848383;
+    font-size:16px;
+}
